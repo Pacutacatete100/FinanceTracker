@@ -1,0 +1,11 @@
+{
+  "name": "financetracker",
+  "version": "1.0.0",
+  "description": "financial tracker cli",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Koji Ohara",
+  "license": "ISC"
+}
