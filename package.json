@@ -1,11 +1,17 @@
 {
-  "name": "financetracker",
+  "name": "ft",
   "version": "1.0.0",
   "description": "financial tracker cli",
-  "main": "Main.js",
+  "bin": "./index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Koji Ohara",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.0"
+  }
 }
