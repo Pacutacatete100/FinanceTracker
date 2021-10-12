@@ -2,7 +2,9 @@
   "name": "ft",
   "version": "1.0.0",
   "description": "financial tracker cli",
-  "bin": "./index.js",
+  "bin": {
+    "ft": "index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +15,9 @@
     "babar": "^0.2.0",
     "chalk": "^4.1.1",
     "clear": "^0.1.0",
+    "clui": "^0.3.6",
     "figlet": "^1.5.0",
-    "yargs": "^17.0.1"
+    "inquirer": "^8.2.0",
+    "yargs": "^17.2.1"
   }
 }
